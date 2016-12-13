@@ -29,7 +29,7 @@ function foundItemsDirectiveController() {
 NarrowItDownController.$inject = ['MenuSearchService'];
 function NarrowItDownController(MenuSearchService) {
   var narrow = this;
-  narrow.searchTerm="Chicken";
+  narrow.searchTerm="";
   narrow.found_items=[];
 
   narrow.searchMenu=function(searchTerm){
